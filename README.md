@@ -10,7 +10,7 @@ This is [quarto](https://quarto.org) extension to create a letter. The output fo
 ## Usage
 
 - Fill out your data (sender / recipient) in the YAML-Header.
-- if you have your signature as a pdf file, set parameter `signature: my-signature.png`. If you don't want a graphical signature, set parameter  `signature: ""`.
+- if you have your signature as a png file, set parameter `signature: my-signature.png`. If you don't want a graphical signature, set parameter  `signature: ""`.
 
 
 ## Screenshots
