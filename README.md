@@ -11,7 +11,14 @@ This is [quarto](https://quarto.org) extension to create a letter. The output fo
 
 - Fill out your data (sender / recipient) in the YAML-Header.
 - if you have your signature as a png file, set parameter `signature: my-signature.png`. If you don't want a graphical signature, set parameter  `signature: ""`.
+- THe default language is german. If you want to switch to english, set YAML-parameter:
 
+```
+---
+english: true
+lang: en      
+---
+```
 
 ## Screenshots
 

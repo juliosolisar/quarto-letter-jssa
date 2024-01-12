@@ -12,20 +12,32 @@ $sender.graduate$ \myFirstname\ \myFamilyname\\[2mm]
 $if(sender.country)$
 $sender.country$\\[2mm]%
 $endif$
+$if(english)$
+Phone: $sender.telefon$\\%
+$else$
 Telefon: $sender.telefon$\\%
+$endif$
 $if(sender.fax)$
 Fax:  $sender.fax$ \\[2mm]%
 $else$[2mm]
 $endif$
-\normalfont Mail: $sender.email$\\%
+Mail: $sender.email$\\%
 $if(sender.www)$%
 Web: $sender.www$\\[2mm]
 $else$[2mm]
 $endif$%\\[2mm]
 $if(sender.filenumber)$
+$if(english)$
+File number:\quad\ $sender.filenumber$\\
+$else$
 Aktenzeichen:\quad\ $sender.filenumber$\\
 $endif$
+$endif$
+$if(english)$
+Date:\quad $date$}
+$else$
 Datum:\quad $date$}
+$endif$
 \setkomavar{backaddress}{\myFamilyname\ | \myStreet\ | \myTown}
 \setkomavar{signature}{%
 $if(signature)$
