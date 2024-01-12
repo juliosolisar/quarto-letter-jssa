@@ -1,4 +1,4 @@
-# hsnr-brief
+# quarto-letter
 
 This is [quarto](https://quarto.org) extension to create a letter. The output format is PDF.
 
