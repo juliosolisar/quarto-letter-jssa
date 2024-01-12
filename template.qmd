@@ -1,0 +1,46 @@
+---
+sender:
+  firstname: Georg
+  lastname: Mustermann
+  street: Reinarzstr. 49
+  plz: 47805
+  city: Krefeld
+  country: Deutschland
+  graduate: Prof. Dr.
+  telefon: "+49 555 822 5555"
+  fax: "+49 555 444 12345"
+  email: "mustermann@mail.org"
+  www: "www.produnis.de/R"
+  filenumber: "22-A-01"
+recipient:
+  name: Erna Empfängerin
+  host: Gesundheitsamt FB13
+  street: Unter der Brücke 17
+  plz: 12345
+  city: Empfangsstadt
+  country: Germany
+# ------------------------------------------------  
+date: 2022-12-24
+#signature: my-signature.png # bring your own file 
+#signature: ""               # no signature
+subject: Meine gute Idee
+opening: Sehr geehrte Frau Empfängerin
+closing: Mit freundlichen Grüßen
+attachment:
+  - Lebenslauf
+  - Unterlassungserklärung
+format:
+  quarto-letter-pdf
+---
+
+
+ich wende mich heute an Sie mit einer wichtigen Mitteilung.
+
+::: {.callout-important}
+## Wichtig Achtung!
+
+Aufpassen!
+:::
+
+
+\lipsum

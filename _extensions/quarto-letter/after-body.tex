@@ -1,0 +1,12 @@
+\closing{$closing$,
+}
+
+$if(attachment)$
+Anlage(n):
+\begin{itemize}
+$for(attachment)$\item $attachment$ %
+$endfor$
+\end{itemize}
+$endif$
+
+\end{letter}
