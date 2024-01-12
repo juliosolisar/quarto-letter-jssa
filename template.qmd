@@ -1,6 +1,6 @@
 ---
-english: true  # activate english words
-lang: en       # english version
+#english: true  # activate english words
+#lang: en       # english version
 sender:
   firstname: Georg
   lastname: Mustermann
