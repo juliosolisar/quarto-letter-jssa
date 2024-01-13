@@ -53,8 +53,10 @@ $endif$
 }
 
 % --------------kopf/fusszeile----------------
-
 \clearmainofpairofpagestyles
+$if(logo)$
+\chead{\vspace{-16mm}\includegraphics[width=$logowidth$]{$logo$} }
+$endif$
 \cfoot{\flushright\scriptsize\normalfont Seite \thepage\ von \pageref{LastPage} }
 \RedeclarePageStyleAlias{empty}{scrheadings}
 %----------------------------------------------

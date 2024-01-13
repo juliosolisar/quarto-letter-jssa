@@ -20,6 +20,17 @@ lang: en
 ---
 ```
 
+## Logo
+
+You can add a logo banner to the top of the pages. Set the path to your logo in YAML:
+
+```
+---
+logo: /path/to/logobanner.png
+logowidth: 12cm
+---
+```
+
 ## Screenshots
 
 ![](https://www.produnis.de/blog/posts/2022-09-12-quarto-briefvorlage/Testbrief.png)
