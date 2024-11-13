@@ -45,5 +45,5 @@ logowidth: 12cm
 
 ## Screenshots
 
-![](https://www.produnis.de/blog/posts/2022-09-12-quarto-briefvorlage/Testbrief.png)
+![](https://i.imgur.com/ubANbwb.png)
 

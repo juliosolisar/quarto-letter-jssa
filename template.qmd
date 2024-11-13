@@ -39,14 +39,9 @@ format:
 
 ich wende mich heute an Sie mit einer wichtigen Mitteilung.
 
-::: {.callout-important}
-## Wichtig Achtung!
-
-Aufpassen!
-:::
 
 ```{=typst}
-#lorem(500)
+#lorem(50)
 ```
 
 
