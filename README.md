@@ -7,17 +7,30 @@ This is a [quarto](https://quarto.org) extension to create a letter. The output 
 `quarto use template produnis/quarto-letter`
 
 
+## Typst
+This extension now supports typst format, which is shipped with `quarto > 1.4`.
+
+```
+---
+format:
+  quarto-letter-typst
+---
+```
+
+LaTeX still works, though.
+
+```
+---
+format:
+  quarto-letter-pdf
+---
+```
+
 ## Usage
 
 - Fill out your data (sender / recipient) in the YAML-Header.
 - if you have your signature as a png file, set parameter `signature: my-signature.png`. If you don't want a graphical signature, set parameter  `signature: ""`.
-- The default language is german. If you want to switch to english, set YAML-parameter:
-
-```
----
-lang: en      
----
-```
+- see `_extension.yml` for all parameters
 
 ## Logo
 
@@ -34,6 +47,3 @@ logowidth: 12cm
 
 ![](https://www.produnis.de/blog/posts/2022-09-12-quarto-briefvorlage/Testbrief.png)
 
-
-## Typst
-This extension now supports typst format.

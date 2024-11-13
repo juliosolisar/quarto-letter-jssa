@@ -1,6 +1,4 @@
 ---
-#english: true  # activate english words
-#lang: en       # english version
 sender:
   firstline: "Ihr Fachmann für Alles"
   graduate: Prof. Dr.
@@ -14,7 +12,7 @@ sender:
   email: "mustermann@mail.org"
   www: "www.produnis.de/R"
   
-address:
+recipient:
   - Erna Empfängerin
   - Gesundheitsamt FB13
   - Unter der Brücke 17
@@ -27,6 +25,7 @@ filenumber: "22-A-01"
 #signature: ""               # no signature
 #logo: my-logo.png           # bring your own file 
 #logo: ""                    # no logo
+#logowidth: 90mm
 subject: Meine gute Idee
 opening: Sehr geehrte Frau Empfängerin,
 closing: Mit freundlichen Grüßen

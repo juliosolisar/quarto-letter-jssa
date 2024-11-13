@@ -76,7 +76,7 @@
              #v(-1mm)
              #h(5mm)
              #box()[ 
-                    #text(11pt)[$for(address)$$address$$sep$ #v(-2mm) $endfor$]  
+                    #text(11pt)[$for(recipient)$$recipient$$sep$ #v(-2mm) $endfor$]  
                    ]
             
             ], 
