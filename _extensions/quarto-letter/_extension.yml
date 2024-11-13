@@ -41,7 +41,6 @@ contributes:
       lang: de
       date-format: "DD.MM.YYYY"
       linkcolor: black
-      #logo: HSNRfb10.png
       signature: Unterschrift.png
       include-in-header: in-header.tex   # header
       template-partials: 

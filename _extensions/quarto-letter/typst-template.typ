@@ -48,8 +48,10 @@
            margin: (top: 35mm, bottom: 30mm, left: 20mm, right: 20mm),
            numbering: "1",
            number-align: center,
+           $if(logo)$
            header: align(center)[#image(logo_path, width: 90mm)],
-           header-ascent: -0mm,
+           header-ascent: 0mm,
+           $endif$
            footer: align(right)[#text(8pt)[Seite #context counter(page).display("1 von 1",both: true,)]]
   )
 

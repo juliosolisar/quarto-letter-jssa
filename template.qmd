@@ -25,6 +25,8 @@ date: 2022-12-24
 filenumber: "22-A-01"
 #signature: my-signature.png # bring your own file 
 #signature: ""               # no signature
+#logo: my-logo.png           # bring your own file 
+#logo: ""                    # no logo
 subject: Meine gute Idee
 opening: Sehr geehrte Frau Empfängerin,
 closing: Mit freundlichen Grüßen
