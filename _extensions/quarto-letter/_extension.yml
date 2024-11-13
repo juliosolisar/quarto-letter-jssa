@@ -7,9 +7,23 @@ contributes:
     typst:
       logo: "testlogo.svg"
       logowidth: 90mm
+      logoascent: 0mm
       signature: "Unterschrift.png"
       lang: de
       date-format: "DD.MM.YYYY"
+      numbering: "1."
+      number-align: center
+      font: "Times New Roman"
+      font-size: 11pt
+      paper: a4
+      footer-pre: "Seite"
+      site-of: "von"
+      attachments: "Anlage(n)"
+      margin:
+        top: 35mm
+        bottom: 30mm
+        right: 20mm
+        left: 20mm
       template-partials:
         - typst-template.typ
         - typst-show.typ

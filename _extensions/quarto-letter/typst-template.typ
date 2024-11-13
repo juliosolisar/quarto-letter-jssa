@@ -6,8 +6,8 @@
 #let signature = signature.replace("\\", "")
 
 // Schriftart und Sprache
-#set text(font: "Times New Roman", 
-          size: 11pt,
+#set text(font: "$font$", 
+          size: $font-size$,
           lang: "$lang$",)
 
 #set par(justify: true)
@@ -43,16 +43,24 @@
   
 
   // Seitengröße und -ränder festlegen
-  set page(width: 210mm, 
-           height: 297mm,  
-           margin: (top: 35mm, bottom: 30mm, left: 20mm, right: 20mm),
-           numbering: "1",
-           number-align: center,
+  set page(paper: "$paper$",  
+           margin: (top: $margin.top$, 
+                    bottom: $margin.bottom$, 
+                    left: $margin.left$, 
+                    right: $margin.right$),
+           $if(numbering)$
+           numbering: "$numbering$",
+           $endif$
+           $if(number-align)$
+           number-align: $number-align$,
+           $endif$
            $if(logo)$
            header: align(center)[#image(logo_path, width: $logowidth$)],
-           header-ascent: 0mm,
+           $if(logoascent)$
+           header-ascent: $logoascent$,
            $endif$
-           footer: align(right)[#text(8pt)[Seite #context counter(page).display("1 von 1",both: true,)]]
+           $endif$
+           footer: align(right)[#text(8pt)[$footer-pre$ #context counter(page).display("1 $site-of$ 1",both: true,)]]
   )
 
   v(15mm) //insgesamt 40mm Abstand vom Rand
@@ -132,7 +140,7 @@
   v(5mm)
   
   $if(attachment)$
-  text(11pt)[Anlage(n):
+  text(11pt)[$attachments$:
       $for(attachment)$
        - $attachment$
       $endfor$
