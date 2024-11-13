@@ -1,9 +1,17 @@
 title: quarto-letter
 author: Joe Slam
-version: 1.0.0
+version: 1.1.0
 quarto-required: ">=1.3.0"
 contributes:
   formats:
+    typst:
+      logo: "testlogo.svg"
+      signature: "Unterschrift.png"
+      lang: de
+      date-format: "DD.MM.YYYY"
+      template-partials:
+        - typst-template.typ
+        - typst-show.typ
     pdf:
       documentclass: scrlttr2
       classoption: 

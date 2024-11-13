@@ -2,7 +2,7 @@
 #english: true  # activate english words
 #lang: en       # english version
 sender:
-  firstline: "Georg Mustermann"
+  firstline: "Ihr Fachmann für Alles"
   graduate: Prof. Dr.
   firstname: Georg
   lastname: Mustermann
@@ -11,10 +11,9 @@ sender:
   city: Krefeld
   country: Deutschland
   telefon: "+49 555 822 5555"
-  fax: "+49 555 444 12345"
   email: "mustermann@mail.org"
   www: "www.produnis.de/R"
-  filenumber: "22-A-01"
+  
 address:
   - Erna Empfängerin
   - Gesundheitsamt FB13
@@ -23,16 +22,17 @@ address:
   - Germany
 # ------------------------------------------------  
 date: 2022-12-24
+filenumber: "22-A-01"
 #signature: my-signature.png # bring your own file 
 #signature: ""               # no signature
 subject: Meine gute Idee
-opening: Sehr geehrte Frau Empfängerin
+opening: Sehr geehrte Frau Empfängerin,
 closing: Mit freundlichen Grüßen
 attachment:
   - Lebenslauf
   - Unterlassungserklärung
 format:
-  quarto-letter-pdf
+  quarto-letter-typst
 ---
 
 
@@ -44,5 +44,9 @@ ich wende mich heute an Sie mit einer wichtigen Mitteilung.
 Aufpassen!
 :::
 
+```{=typst}
+#lorem(500)
+```
 
-\lipsum
+
+
