@@ -6,6 +6,7 @@ contributes:
   formats:
     typst:
       logo: "testlogo.svg"
+      logowidth: 90mm
       signature: "Unterschrift.png"
       lang: de
       date-format: "DD.MM.YYYY"
