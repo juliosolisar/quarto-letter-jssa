@@ -45,6 +45,7 @@
   // Hauptinhalt des Dokuments
   body
 ) = {
+
   // Pfade escapen
   //------------------------------------------
   let logo_path = logo.replace("\\", "")
@@ -171,7 +172,7 @@
     #let unterschrift = unterschrift.replace("\\", "")
     #image(unterschrift, width: 40mm)
     #v(-6mm)
-  ]
+  ] else [#v(6mm)]
 
   block[#text()[#sendgraduate #sendvorname #sendnachname]]
 

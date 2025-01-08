@@ -5,7 +5,7 @@ quarto-required: ">=1.5.0"
 contributes:
   formats:
     typst:
-      logo: "testlogo.svg"
+      logo: "blanklogo.png"
       logowidth: 90mm
       logoascent: 0mm
       signature: "Unterschrift.png"
@@ -17,7 +17,7 @@ contributes:
       font-size: 11pt
       paper: a4
       footer-pre: "Seite"
-      subjectword: "Popo"
+      subjectword: "Betreff"
       attachments: "Anlage(n)"
       margin:
         top: 35mm

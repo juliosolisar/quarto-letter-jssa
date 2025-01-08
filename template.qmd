@@ -24,7 +24,6 @@ filenumber: "22-A-01"
 #signature: my-signature.png # bring your own file 
 #signature: ""               # no signature
 #logo: my-logo.png           # bring your own file 
-#logo: ""                    # no logo
 #logowidth: 90mm
 subject: Meine gute Idee
 opening: Sehr geehrte Frau Empfängerin,
