@@ -51,7 +51,10 @@
   let logo_path = logo.replace("\\", "")
   let sendemail = sendemail.replace("\\", "")
   let sendgraduate = sendgraduate.replace("~", " ")
-
+  let opening = opening.replace("~", " ")
+  let betreff = betreff.replace("~", " ")
+  let empfaenger = empfaenger.map(e => e.replace("~", " "))
+  
   // Farben definieren
   let HSNRblue1 = rgb("185191")
   let HSNRblue2 = rgb("07A1E2")
@@ -171,6 +174,8 @@
   v(5mm)
 
   // Hauptteil des Dokuments
+  // Blocksatz verwenden?
+  // set par(justify: true)
   body
 
   // Abstand
