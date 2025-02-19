@@ -40,8 +40,5 @@ ich wende mich heute an Sie mit einer wichtigen Mitteilung.
 
 
 ```{=typst}
-#lorem(50)
+#lorem(5000)
 ```
-
-
-
