@@ -99,9 +99,9 @@
     footer: align(right)[#text(9pt)[Seite #context counter(page).display("1 von 1", both: true,)]],
     background: {
         //  Set A - should be correct?
-        place(top + left, dx: -0cm, line(start: (0%, +10.3cm ), end: (8%, +10.3cm), stroke: (thickness: 0.2pt, paint: black))) 
-        place(top + left, dx: -0cm, line(start: (0%, +15.1cm ), end: (6%, +15.1cm), stroke: (thickness: 0.2pt, paint: black)))
-        place(top + left, dx: -0cm, line(start: (0%, +20.5cm ), end: (8%, +20.5cm), stroke: (thickness: 0.2pt, paint: black)))
+        //place(top + left, dx: -0cm, line(start: (0%, +10.3cm ), end: (8%, +10.3cm), stroke: (thickness: 0.2pt, paint: black))) 
+        //place(top + left, dx: -0cm, line(start: (0%, +15.1cm ), end: (6%, +15.1cm), stroke: (thickness: 0.2pt, paint: black)))
+        //place(top + left, dx: -0cm, line(start: (0%, +20.5cm ), end: (8%, +20.5cm), stroke: (thickness: 0.2pt, paint: black)))
         //  Set B - experimental
         // place(top + left, dx: -0cm, line(start: (0%, 50mm  ), end: (4%, 50mm), stroke: (thickness: 0.1pt,paint: red)))
         // place(top + left, dx: -0cm, line(start: (0%, 50%   ), end: (6%, 50%), stroke: (thickness: 0.1pt,paint: red)))
@@ -117,19 +117,23 @@
        align: (left, right),
 
        // Empfängerin
-       //------------
-       box()[#underline()[#text(7pt)[#sendvorname #sendnachname | #sendstrasse | #sendplz #sendort]]
-             #v(-1mm)
-             #h(5mm)
-             #box()[
-                    #text(11pt)[
-                      #for e in empfaenger [
-                            #e #v(-2mm)
-                            ]
-                        ]
-                   ]
+       box()[
+            // Instead of removing the whole line, just remove the text content:
+            // #underline()[#text(7pt)[#sendvorname #sendnachname | #sendstrasse | #sendplz #sendort]]
 
-            ],
+            // Keep the offsets so the spacing remains
+        #v(-1mm)
+        #h(5mm)
+
+          // The rest of your recipient info
+      #box()[
+        #text(11pt)[
+          #for e in empfaenger [
+        #e #v(-2mm)]
+        ]
+      ]
+    ],
+
 
        // Absender
        //---------
