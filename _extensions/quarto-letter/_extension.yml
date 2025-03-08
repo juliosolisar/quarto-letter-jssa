@@ -9,15 +9,15 @@ contributes:
       logowidth: 90mm
       logoascent: 0mm
       signature: "Unterschrift.png"
-      lang: de
-      date-format: "DD.MM.YYYY"
+      lang: en
+      date-format: "MMMM d, YYYY"
       numbering: "1."
       number-align: center
       font: "Times New Roman"
       font-size: 11pt
       paper: a4
       footer-pre: "Seite"
-      subjectword: "Betreff"
+      subjectword: "Subject"
       attachments: "Anlage(n)"
       margin:
         top: 35mm
@@ -53,8 +53,8 @@ contributes:
       df-print: kable
       code-line-numbers: true # false
       keep-tex: false # true # false
-      lang: de
-      date-format: "DD.MM.YYYY"
+      lang: en
+      date-format: "MMMM d, YYYY"
       linkcolor: black
       signature: Unterschrift.png
       include-in-header: in-header.tex   # header

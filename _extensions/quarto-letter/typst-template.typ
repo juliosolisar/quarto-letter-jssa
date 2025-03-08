@@ -96,7 +96,7 @@
     number-align: number-align,
     header: align(center)[#image(logo_path, width: logowidth)],
     header-ascent: logoascent,
-    footer: align(right)[#text(9pt)[Seite #context counter(page).display("1 von 1", both: true,)]],
+    footer: align(right)[#text(9pt)[#context counter(page).display("1 / 1", both: true,)]],
     background: {
         //  Set A - should be correct?
         //place(top + left, dx: -0cm, line(start: (0%, +10.3cm ), end: (8%, +10.3cm), stroke: (thickness: 0.2pt, paint: black))) 
@@ -147,7 +147,7 @@
                            #text(8pt)[#sendplz] #text(8pt)[#sendort]
                            #v(-1mm)
                            #if sendtelefon != "" [
-                            #text(8pt)[Telefon: #sendtelefon]
+                            #text(8pt)[Phone: #sendtelefon]
                            ]
                            #v(-2mm)
                            #if sendemail != "" [
@@ -162,7 +162,7 @@
                               #text(8pt)[Aktenzeichen: #aktenzeichen]
                            ]
                            #v(-3mm)
-                           #text(8pt)[Datum: #datum]
+                           #text(8pt)[Date: #datum]
                            ]
             ]
        )
@@ -185,7 +185,7 @@
 
   // Hauptteil des Dokuments
   // Blocksatz verwenden?
-  // set par(justify: true)
+   set par(justify: true)
   body
 
   // Abstand
@@ -205,11 +205,11 @@
 
   if anlagen != none [
     #if type(anlagen) == str [  // a single attachment
-      #text(11pt)[Anlage:
+      #text(11pt)[Attachment:
       - #anlagen
       ]
     ] else if type(anlagen) == array [                      // multiple attachments. also handles empty entries in the list.
-      #text(11pt)[Anlagen(n):
+      #text(11pt)[Attachments:
         #for a in anlagen [
           #if a != "" [
             - #a
