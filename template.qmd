@@ -34,14 +34,7 @@ format:
 ---
 
 
-I am writing to apply for the Kiel-CEPR International Summer Fellowship 2025. I am currently a PhD candidate at Harvard University in the Government Department, where I expect to graduate in the Spring of 2027. My work lies at the intersection of cultural and political economics as they relate to the development of countries in the Global South, particularly in Sub-Saharan Africa. 
 
-In my research, I explore how different societies understand state-level institutions and policies based on their experiences with their own traditional or indigenous institutions. Endogenously, societies develop distinct forms of political organization—such as a chief, a council of elders, or a village-level assembly—sustained by their own normative order or notion of legitimacy grounded on the society's history and worldviews (Robinson 2024). When external political institutions or policies, are "imposed" or imported, be it by international actors of the national government, societies may respond in unexpected ways, either in conflict with or complementary to the intend purpose of the policies and institutions. 
-
-More concretely, in my dissertation project I investigate these dynamics through the case of Botswana, an "African success story" characterized by its political stability and economic growth after independence. Part of the explanation give to Botswana's succes is how they build national level institutions from the village-level political system, which is based on an assembly known as the kgotla, which makes decisions by direct participation and consensus. Remarkably, consensus stands in opposition to majority rule and indirect representation, central tennets of Western-style electoral democracy. My research combines methods from experimental economics and ethnographic observation. My dissertation committee is integrated by Torben Iversen, Pia Raffler, Daniel Ziblatt (Harvard - Department of Government), Eliana La Ferrara (Harvard - Kennedy School), and Jacob Moscona (MIT - Department of Economics). 
-
-Scarification—the practice of creating permanent patterns on the skin through deliberate incisions—has long been a cultural tradition among various ethnic groups in West Africa. These tribal marks, often etched onto the face, serve as visible symbols of identity and foster a strong sense of= belonging within communities. Each tribe has its own distinctive scar patterns, which are easily recognized by both in-group members and outsiders. I have recently obtained data from the latest
-Afrobarometer rounds reporting the presence of tribal marks in Ghana and Nigeria, which I am currently analyzing. Along with my coauthors, I have also submitted an exploratory grant proposal to IPA to advance the experimental component of this project.
 
 ```{=typst}
 #lorem(5000)
