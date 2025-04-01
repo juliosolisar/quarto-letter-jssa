@@ -1,5 +1,4 @@
-title: quarto-letter
-author: Joe Slam
+ateauthor: Joe Slam
 version: 1.1.1
 quarto-required: ">=1.5.0"
 contributes:
@@ -10,7 +9,7 @@ contributes:
       logoascent: 0mm
       signature: "Unterschrift.png"
       lang: en
-      date-format: "MMMM d, YYYY"
+      date-format: "MMMM D, YYYY"
       numbering: "1."
       number-align: center
       font: "Times New Roman"
@@ -54,7 +53,7 @@ contributes:
       code-line-numbers: true # false
       keep-tex: false # true # false
       lang: en
-      date-format: "MMMM d, YYYY"
+      date-format: "MMMM D, YYYY"
       linkcolor: black
       signature: Unterschrift.png
       include-in-header: in-header.tex   # header
