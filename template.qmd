@@ -9,7 +9,7 @@ sender:
   country: United States
   telefon: "+1 617 290 8291"
   email: "jsolisarce@g.harvard.edu"
-  #www: "www.produnis.de/R"
+  www: "juliosolisar.github.io"
   
 recipient:
   - Erna Empfängerin
