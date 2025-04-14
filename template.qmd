@@ -4,7 +4,7 @@ sender:
   firstname: Julio S.
   lastname: Solís Arce
   street: 1737 Cambridge Street
-  plz: 02138
+  plz: "02138"
   city: Cambridge, MA
   country: United States
   telefon: "+1 617 290 8291"
