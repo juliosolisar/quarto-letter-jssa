@@ -9,8 +9,8 @@
     unterschrift: none,
     anhang: none,
     lang: none,
-    fontname: none,     // preferred safe name for font
-    fontsize: none,     // preferred safe name for font size
+    font: none,
+    font-size: none,
     title-size: none,
     paper: none,
     numbering: none,
@@ -108,19 +108,6 @@
         // place(top + left, dx: -0cm, line(start: (0%, 155mm ), end: (4%, 155mm), stroke: (thickness: 0.1pt,paint: red)))
     }
   )
-  
-// map YAML keys to safe internal names (accept both `fontname` and legacy `font`, and `fontsize` and legacy `font-size`)
-let actual_fontname = if fontname != none { fontname } else if font != none { font } else { none }
-let actual_fontsize = if fontsize != none { fontsize } else if `font-size` != none { `font-size` } else { 11pt }
-
-// produce a Typst font object and size (safe because `font` builtin is not shadowed)
-let main_font = if actual_fontname != none { font(actual_fontname) } else { none }
-let main_font_size = actual_fontsize
-
-set text(
-  font: main_font,
-  size: main_font_size
-)
 
   v(15mm) //insgesamt 40mm Abstand vom Rand
   

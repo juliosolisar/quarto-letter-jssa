@@ -31,8 +31,6 @@ attachment:
   - Cover Letter
 format:
   quarto-letter-typst
-fontname: Inter
-fontsize: 11pt
 ---
 
 

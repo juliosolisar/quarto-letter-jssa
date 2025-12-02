@@ -10,8 +10,8 @@
     logowidth: $logowidth$,
     logoascent: $logoascent$,
     anhang: "$Anhang$",
-    fontname: "$fontname$",
-    fontsize: $fontsize$,
+    font: "$font$",
+    font-size: $font-size$,
     $if(title-size)$
     title-size: $title-size$,
     $endif$
