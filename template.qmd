@@ -31,6 +31,7 @@ attachment:
   - Cover Letter
 format:
   quarto-letter-typst
+font: "Times New Roman" 
 ---
 
 

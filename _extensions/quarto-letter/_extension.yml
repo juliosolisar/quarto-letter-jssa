@@ -17,8 +17,8 @@ contributes:
       font-size: 11pt
       paper: a4
       footer-pre: "Seite"
-      subjectword: "Betreff"
-      attachments: "Anlage(n)"
+      subjectword: "Subject"
+      attachments: "Attachment(s)"
       margin:
         top: 35mm
         bottom: 30mm
@@ -29,6 +29,7 @@ contributes:
         - typst-show.typ
     pdf:
       documentclass: scrlttr2
+      font: "Times New Roman"
       classoption: 
         - firsthead=on
         - firstfoot=on 

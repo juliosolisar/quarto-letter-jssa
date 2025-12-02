@@ -1,6 +1,22 @@
 %\usepackage{tikz}
 %\usepackage[most]{tcolorbox}
 
+% --- per-document font handling (add this at top of in-header.tex) ---
+$if(font)$
+  \usepackage{iftex}
+  \ifPDFTeX
+    % fallback for pdfLaTeX: use a Times-like package
+    \usepackage{mathptmx}
+  \else
+    % XeTeX or LuaTeX -> use fontspec for system fonts
+    \usepackage{fontspec}
+    \setmainfont{$font$}
+    $if(sansfont)$\setsansfont{$sansfont$}$endif$
+    $if(monofont)$\setmonofont{$monofont$}$endif$
+  \fi
+$endif$
+% ---------------------------------------------------------------
+
  % === HSNR colors ==============================
 \definecolor{linkblue}{RGB}{17, 40, 73}
 \definecolor{HSNRblue1}{RGB}{24,81,145}
